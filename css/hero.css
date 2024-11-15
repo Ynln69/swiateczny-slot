@@ -3,7 +3,7 @@
   text-align: center;
   background: url("../img/bg.webp") no-repeat center center/cover;
   color: white;
-  padding: 200px 100px;
+  padding: 200px 30px;
   position: relative;
   overflow: hidden;
 }
@@ -36,6 +36,8 @@
 
 .hero .btn-primary {
   position: relative;
+  display: inline-block;
+  width: 210px;
   background-color: var(--secondary-color);
   padding: 10px 20px;
   text-decoration: none;
