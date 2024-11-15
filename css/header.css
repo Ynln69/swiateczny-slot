@@ -1,0 +1,123 @@
+/* Загальний стиль для хедера */
+.header {
+  background: linear-gradient(to bottom, #3d3d3d, #282828);
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffcc00;
+}
+
+/* Десктопна навігація */
+.desktop-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.desktop-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  font-size: clamp(1.125rem, 0.179vw + 1.089rem, 1.25rem);
+  line-height: clamp(1.463rem, 0.232vw + 1.416rem, 1.625rem);
+}
+
+.desktop-nav a:hover {
+  color: #ff5733;
+}
+
+/* Кнопка для мобільного меню */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Мобільне меню */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100%;
+  background: #3d3d3d;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  transition: right 0.3s ease;
+  z-index: 1001;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
+}
+
+.mobile-nav a:hover {
+  color: #ffcc00;
+}
+
+.menu-close {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Активне мобільне меню */
+.mobile-nav.active {
+  right: 0;
+}
+
+/* Адаптація під мобільні пристрої */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}

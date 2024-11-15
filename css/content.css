@@ -1,0 +1,367 @@
+/* Динамічний фон для секції з кастомними іконками */
+.dynamic-icons-section {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+/* Загальний стиль для іконок */
+.dynamic-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: float 6s infinite ease-in-out;
+  opacity: 0.8;
+}
+/* Плаваюча анімація */
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+.snowflake {
+  background: url("../img/free-icon-snowflake-1198014.png") no-repeat center
+    center/contain;
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+}
+.candy {
+  background: url("../img/free-icon-lollipop-3349452.png") no-repeat center
+    center/contain;
+  top: 50%;
+  left: 30%;
+  animation-delay: 1s;
+}
+.gift {
+  background: url("../img/free-icon-gift-2388547.png") no-repeat center
+    center/contain;
+  top: 30%;
+  right: 20%;
+  animation-delay: 2s;
+}
+.bell {
+  background: url("../img/free-icon-christmas-wreath-6264465.png") no-repeat
+    center center/contain;
+  bottom: 10%;
+  right: 10%;
+  animation-delay: 3s;
+}
+
+.categories-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.category-card {
+  flex: 1;
+  min-width: 280px;
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform var(--transition-time);
+}
+.category-card img {
+  width: 100%;
+  height: auto;
+}
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+/* ПРО НАС */
+.about {
+  background-color: #c7b082;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+/* Анімація падаючого снігу */
+.falling-snow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+/* Змінюємо стилі для сніжинок */
+.snowflake {
+  position: absolute;
+  top: -10px;
+  font-size: 1.2rem; /* Змінено розмір */
+  color: #ffffff; /* Білий колір */
+  opacity: 0.9;
+  animation: fall 8s linear infinite;
+}
+.snowflake:nth-child(1) {
+  left: 10%;
+  font-size: 1.5rem;
+  animation-duration: 10s;
+}
+.snowflake:nth-child(2) {
+  left: 25%;
+  font-size: 1.3rem;
+  animation-duration: 8s;
+}
+.snowflake:nth-child(3) {
+  left: 50%;
+  font-size: 1rem;
+  animation-duration: 7s;
+}
+.snowflake:nth-child(4) {
+  left: 75%;
+  font-size: 1.2rem;
+  animation-duration: 9s;
+}
+.snowflake:nth-child(5) {
+  left: 90%;
+  font-size: 1.8rem;
+  animation-duration: 6s;
+}
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+/* ПЕРЕВАГИ */
+.advantages-section {
+  position: relative;
+}
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.advantage-item {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s ease-out forwards;
+  &:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  &:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  &:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  }
+}
+.advantage-item i {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ff6347;
+}
+.snowflake {
+  position: absolute;
+  font-size: 3rem;
+  color: #b0e0e6;
+  opacity: 0.8;
+  transition: transform 0.3s;
+  &:nth-child(1) {
+    top: -10px;
+    right: -10px;
+  }
+  &:nth-child(2) {
+    bottom: -10px;
+    left: -10px;
+  }
+  &:nth-child(3) {
+    top: -10px;
+    left: -10px;
+  }
+}
+.advantage-item:hover .snowflake {
+  transform: rotate(360deg);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* АКЦІЇ */
+.promotions-section {
+  position: relative;
+  overflow: hidden;
+}
+.promotions-section::before,
+.promotions-section::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+}
+.promotions-section::before {
+  top: -50px;
+  left: -50px;
+  width: 150px;
+  height: 150px;
+  background: url("../img/free-icon-snowflake-1198014.png") no-repeat
+    center/contain;
+  opacity: 0.5;
+}
+.promotions-section::after {
+  bottom: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: url("../img/free-icon-christmas-wreath-6264465.png") no-repeat
+    center/contain;
+  opacity: 0.7;
+}
+.promotions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  position: relative;
+  z-index: 1;
+}
+.promotion-item {
+  background: rgb(191, 191, 242);
+  color: var(--text-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+  &:nth-child(1) {
+    animation-delay: 0.3s;
+  }
+  &:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  &:nth-child(3) {
+    animation-delay: 0.7s;
+  }
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+}
+.promotion-item h3 {
+  position: relative;
+}
+.promotion-item h3::before {
+  content: "🎁";
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.8rem;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Контакти */
+.contact-section {
+  background: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  align-items: start;
+}
+.contact-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+.contact-form button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-form button:hover {
+  background-color: #cc0000;
+}
+.contact-info {
+  text-align: left;
+}
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.contact-info i {
+  font-size: 1.5rem;
+  color: #ff0000;
+}
+.map iframe {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}

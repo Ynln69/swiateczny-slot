@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Witamy w najlepszym sklepie z zabawkami świątecznymi! Znajdź piękne ozdoby i magię świąt."
+    />
+    <title>Świąteczny Sklep Zabawek</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <!-- Логотип -->
+        <a href="#" class="logo">🎄 Świąteczny Sklep Zabawek</a>
+
+        <!-- Кнопка відкриття мобільного меню -->
+        <button class="menu-toggle" aria-label="Otwórz menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Навігація для десктопів -->
+        <nav class="nav desktop-nav">
+          <ul>
+            <li><a href="#categories">Kategorie</a></li>
+            <li><a href="#popular">Popularne Zabawki</a></li>
+            <li><a href="#about">O nas</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <!-- Мобільне меню -->
+        <nav class="nav mobile-nav">
+          <button class="menu-close" aria-label="Zamknij menu">&times;</button>
+          <ul>
+            <li><a href="#categories">Kategorie</a></li>
+            <li><a href="#popular">Popularne Zabawki</a></li>
+            <li><a href="#about">O nas</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero" class="hero section">
+      <div class="container">
+        <h1>Wprowadź magię świąt do swojego domu!</h1>
+        <p>Odkryj najlepszy wybór ozdób świątecznych i zabawek.</p>
+        <a href="#categories" class="btn-primary">Przeglądaj ofertę</a>
+      </div>
+    </section>
+
+    <section class="dynamic-icons-section">
+      <div class="dynamic-icon snowflake"></div>
+      <div class="dynamic-icon candy"></div>
+      <div class="dynamic-icon gift"></div>
+      <div class="dynamic-icon bell"></div>
+    </section>
+
+    <section id="promotions" class="promotions-section section">
+      <div class="container">
+        <h2 class="title">Nasze promocje</h2>
+        <ul class="promotions-list">
+          <li class="promotion-item">
+            <h3 class="subTitle">Kup 3 bombki – czwarta gratis!</h3>
+            <p class="text">
+              Przy zakupie trzech bombek świątecznych otrzymasz czwartą zupełnie
+              za darmo.
+            </p>
+          </li>
+          <li class="promotion-item">
+            <h3 class="subTitle">Zestaw ozdób choinkowych -15%</h3>
+            <p class="text">
+              Skorzystaj z rabatu na nasze zestawy ozdób choinkowych i
+              zaoszczędź 15%.
+            </p>
+          </li>
+          <li class="promotion-item">
+            <h3 class="subTitle">Darmowa dostawa powyżej 200 zł</h3>
+            <p class="text">
+              Zrób zakupy za minimum 200 zł i ciesz się darmową dostawą na
+              terenie Polski.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 data-translate="about.mainTitle" class="title">O nas</h2>
+        <div class="about-container">
+          <p data-translate="about.text1" class="text">
+            Witaj w naszym magicznym świecie świątecznych dekoracji! Oferujemy
+            unikalne ozdoby choinkowe, które wprowadzą magię świąt do Twojego
+            domu.
+          </p>
+          <img src="./img/about.webp" alt="" />
+          <p data-translate="about.text2" class="text">
+            Każda ozdoba jest wykonana z dbałością o najmniejszy detal, aby
+            nadać Twojej choince niepowtarzalny charakter i ciepło świątecznej
+            atmosfery.
+          </p>
+        </div>
+        <!-- Додаткові декоративні елементи -->
+        <div class="falling-snow">
+          <div class="snowflake">❄</div>
+          <div class="snowflake">❄</div>
+          <div class="snowflake">❄</div>
+          <div class="snowflake">❄</div>
+          <div class="snowflake">❄</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="categories section">
+      <div class="container">
+        <h2 class="title">Nasze Kategorie</h2>
+        <ul class="categories-grid">
+          <li class="category-card">
+            <a href="">
+              <img src="./img/img.webp" alt="Szklane Bombki" />
+              <h3 class="subTitle">Szklane Bombki Slot</h3>
+            </a>
+          </li>
+          <li class="category-card">
+            <a href="">
+              <img src="./img/img1.webp" alt="Gwiazdki na choinkę" />
+              <h3 class="subTitle">Gwiazdki Casino na choinkę</h3>
+            </a>
+          </li>
+          <li class="category-card">
+            <a href="">
+              <img src="./img/img2.webp" alt="Lampki Świąteczne" />
+              <h3 class="subTitle">Lampki Świąteczne Jackpot</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="advantages" class="advantages-section section">
+      <div class="container">
+        <h2 class="title">Nasze zalety</h2>
+        <div class="advantages-grid">
+          <div class="advantage-item">
+            <i class="fas fa-gift"></i>
+            <h3 class="subTitle">Wyjątkowy design</h3>
+            <p class="text">
+              Nasze ozdoby choinkowe zachwycają unikalnym wzornictwem, które
+              podkreśli magię Twoich świąt.
+            </p>
+            <span class="snowflake">❄️</span>
+          </div>
+          <div class="advantage-item">
+            <i class="fas fa-leaf"></i>
+            <h3 class="subTitle">Ekologiczne materiały</h3>
+            <p class="text">
+              Stosujemy tylko przyjazne środowisku materiały, dbając o naturę i
+              Twoje zdrowie.
+            </p>
+            <span class="snowflake">🎄</span>
+          </div>
+          <div class="advantage-item">
+            <i class="fas fa-truck"></i>
+            <h3 class="subTitle">Szybka dostawa</h3>
+            <p class="text">
+              Zapewniamy ekspresową dostawę, aby Twoje dekoracje dotarły na
+              czas.
+            </p>
+            <span class="snowflake">⭐</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <h2 class="title">Skontaktuj się z nami</h2>
+
+        <div class="contact-grid">
+          <!-- Форма зворотнього зв'язку -->
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Twoje imię</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Wpisz swoje imię"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Twój email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Wpisz swój email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Twoja wiadomość</label>
+              <textarea
+                id="message"
+                rows="5"
+                placeholder="Napisz swoją wiadomość"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Wyślij wiadomość</button>
+          </form>
+
+          <!-- Контактна інформація -->
+          <div class="contact-info">
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Adres: ul. Świąteczna 10,
+              00-000 Warszawa
+            </p>
+            <p><i class="fas fa-phone"></i> Telefon: +48 123 456 789</p>
+            <p>
+              <i class="fas fa-envelope"></i> Email: kontakt@swiatecznyslot.com
+            </p>
+            <!-- Айфрейм з Google Maps -->
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.752312848609!2d21.001654815896623!3d52.22967597975716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc6c48b71d27%3A0xbdeb6d98976f53d!2sul.%20Świąteczna%2010%2C%2000-000%20Warszawa%2C%20Polska!5e0!3m2!1spl!2spl!4v1699532078423!5m2!1spl!2spl"
+                width="100%"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer class="footer">
+      <div class="container">
+        <!-- Текст прав -->
+
+        <!-- Навігація по сайту -->
+        <nav class="footer-navigation">
+          <ul>
+            <li>
+              <a href="#categories" data-translate="footer.link1">Kategorie</a>
+            </li>
+            <li>
+              <a href="#popular" data-translate="footer.link2"
+                >Popularne Zabawki</a
+              >
+            </li>
+            <li><a href="#about" data-translate="footer.link3">O nas</a></li>
+            <li>
+              <a href="#contact" data-translate="footer.link4">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Навігація до сторінок -->
+        <div class="footer-links">
+          <a href="./page/polityka-page.html" data-translate="footer.link5"
+            >Polityka prywatności</a
+          >
+          <a href="./page/warunki-page.html" data-translate="footer.link6"
+            >Regulamin</a
+          >
+          <a href="./page/cookie-page.html" data-translate="footer.link7"
+            >Polityka Cookies</a
+          >
+        </div>
+
+        <!-- Контактна інформація -->
+        <div class="footer-contact">
+          <p data-translate="footer.text1">
+            <i class="fas fa-phone"></i> Telefon: +48 726 617 294
+          </p>
+          <p data-translate="footer.text2">
+            <i class="fas fa-envelope"></i> Email: kontakt@swiatecznyslot.com
+          </p>
+          <p data-translate="footer.text3">
+            <i class="fas fa-map-marker-alt"></i> Adres: ul. Świąteczna 10,
+            00-000 Warszawa
+          </p>
+        </div>
+
+        <!-- Новорічний декор -->
+        <div class="footer-decor">
+          <img
+            src="./img/free-icon-gift-2388547.png"
+            alt="Dzwoneczek"
+            class="decor-item"
+          />
+          <img
+            src="./img/free-icon-snowflake-1198014.png"
+            alt="Śnieżynka"
+            class="decor-item"
+          />
+          <img
+            src="./img/free-icon-lollipop-3349452.png"
+            alt="Choinka"
+            class="decor-item"
+          />
+        </div>
+      </div>
+
+      <p>
+        &copy; 2024 Świąteczny Sklep Zabawek - swiatecznyslot.com. Wszelkie
+        prawa zastrzeżone.
+      </p>
+    </footer>
+
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/icon.js"></script>
+  </body>
+</html>
