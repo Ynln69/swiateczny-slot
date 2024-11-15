@@ -298,12 +298,11 @@
 /* Контакти */
 .contact-section {
   background: #f5f5f5;
-  padding: 50px 20px;
   text-align: center;
 }
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   align-items: start;
 }
@@ -322,6 +321,8 @@
   margin-bottom: 8px;
   font-weight: bold;
   color: #555;
+  font-size: clamp(1.625rem, 0.536vw + 1.518rem, 2rem);
+  line-height: clamp(2.113rem, 0.696vw + 1.973rem, 2.6rem);
 }
 .contact-form input,
 .contact-form textarea {
@@ -331,6 +332,8 @@
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fafafa;
+  font-size: clamp(1.375rem, 0.536vw + 1.268rem, 1.75rem);
+  line-height: clamp(1.788rem, 0.696vw + 1.648rem, 2.275rem);
 }
 .contact-form button {
   display: inline-block;
@@ -342,6 +345,8 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: clamp(1.625rem, 0.536vw + 1.518rem, 2rem);
+  line-height: clamp(2.113rem, 0.696vw + 1.973rem, 2.6rem);
 }
 .contact-form button:hover {
   background-color: #cc0000;
@@ -349,12 +354,15 @@
 .contact-info {
   text-align: left;
 }
-.contact-info p {
+.contact-info a,
+.address-contact {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
   color: #333;
+  font-size: clamp(1.625rem, 0.536vw + 1.518rem, 2rem);
+  line-height: clamp(2.113rem, 0.696vw + 1.973rem, 2.6rem);
 }
 .contact-info i {
   font-size: 1.5rem;
@@ -364,4 +372,259 @@
   width: 100%;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+/* COOKIE */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #c1121f; /* Червоний новорічний колір */
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  font-family: "Lato", sans-serif;
+  display: none; /* Початково банер прихований */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.cookie-banner.show {
+  display: block;
+  opacity: 1;
+}
+.cookie-banner p {
+  font-size: 1rem;
+  margin: 0 0 10px;
+}
+.cookie-banner button {
+  background: #f4f4f9;
+  color: #c1121f;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.cookie-banner button:hover {
+  background: #fff;
+  color: #ffcc00; /* Золотий відтінок */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Декоративні елементи */
+.cookie-banner::before {
+  content: "🎄";
+  font-size: 1.5rem;
+  position: absolute;
+  top: -10px;
+  left: 15px;
+}
+.cookie-banner::after {
+  content: "🎅";
+  font-size: 1.5rem;
+  position: absolute;
+  top: -10px;
+  right: 15px;
+}
+@media (max-width: 768px) {
+  .cookie-banner p {
+    font-size: 0.9rem;
+  }
+  .cookie-banner button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+/* СТОРІКА ДЯКУЮ */
+.thank-you-section {
+  background: linear-gradient(to bottom, #2e3a87, #1b233d); /* Зимовий градієнт */
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.thank-you-container {
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Прозорий білий фон */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+}
+.thank-you-title {
+  font-family: "Bungee", sans-serif;
+  font-size: clamp(2rem, 2.143vw + 1.571rem, 3.5rem);
+  line-height: clamp(2.6rem, 2.786vw + 2.043rem, 4.55rem);
+  margin-bottom: 20px;
+  color: #ffcc00; /* Золотистий відтінок */
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+.thank-you-text {
+  font-family: "Caveat", cursive;
+  color: var(--hover-color);
+  font-size: clamp(1.625rem, 0.536vw + 1.518rem, 2rem);
+  line-height: clamp(2.113rem, 0.696vw + 1.973rem, 2.6rem);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.hero-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #c1121f; /* Яскраво-червоний */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.hero-link:hover {
+  background: #ffcc00; /* Золотий */
+  color: #000000;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Декоративні елементи */
+.thank-you-section::before,
+.thank-you-section::after {
+  content: '❄️';
+  font-size: 3rem;
+  color: #ffffff;
+  opacity: 0.7;
+  position: absolute;
+  animation: snowflakes 10s linear infinite;
+}
+.thank-you-section::before {
+  top: -10%;
+  left: 5%;
+  animation-delay: 0s;
+}
+.thank-you-section::after {
+  top: -10%;
+  right: 5%;
+  animation-delay: 5s;
+}
+@keyframes snowflakes {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(120vh) rotate(360deg);
+  }
+}
+
+/* інші */
+/* Загальний контейнер */
+.padding {
+  padding: 40px 0;
+  background: linear-gradient(to bottom, #2e3a87, #1b233d); /* Зимовий градієнт */
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+/* Стиль для заголовка сторінки */
+.other-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffcc00; /* Золотий */
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Стиль для основного тексту */
+.other-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #f4f4f9; /* Легкий відтінок білого */
+  text-align: justify;
+}
+
+/* Стиль для підзаголовків */
+.other-subtitle {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #ffcc00; /* Золотий */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid #ffcc00; /* Золотий підкреслення */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Стиль для тексту підзаголовків */
+.other-subtext {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #f4f4f9;
+  text-align: justify;
+}
+
+/* Стиль для списків */
+.other-list {
+  margin: 20px 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.other-list li {
+  font-size: 1.1rem;
+  color: #f4f4f9;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.other-list li::before {
+  content: "🎄"; /* Декоративна іконка */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.5rem;
+  color: #ffcc00; /* Золотий */
+}
+
+/* Декоративні елементи */
+.padding::before,
+.padding::after {
+  content: "❄️";
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.7); /* Напівпрозорі сніжинки */
+  position: absolute;
+  z-index: 1;
+  animation: snowfall 10s linear infinite;
+}
+
+.padding::before {
+  top: -10%;
+  left: 5%;
+  animation-delay: 0s;
+}
+
+.padding::after {
+  top: -10%;
+  right: 5%;
+  animation-delay: 5s;
+}
+
+/* Анімація сніжинок */
+@keyframes snowfall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(120vh) rotate(360deg);
+  }
 }

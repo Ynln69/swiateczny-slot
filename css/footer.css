@@ -2,13 +2,14 @@
   background-color: #2b3a47;
   color: #ffffff;
   text-align: center;
-  padding: 30px 20px;
+  padding: 50px 0;
   position: relative;
 }
 
 .footer p {
   margin: 10px 0;
-  font-size: 0.9rem;
+  font-size: clamp(1.375rem, 0.536vw + 1.268rem, 1.75rem);
+  line-height: clamp(1.788rem, 0.696vw + 1.648rem, 2.275rem);
 }
 
 .footer-navigation ul {
@@ -26,20 +27,23 @@
   transition: color 0.3s;
   font-size: clamp(1.125rem, 0.357vw + 1.054rem, 1.375rem);
   line-height: clamp(1.463rem, 0.464vw + 1.37rem, 1.788rem);
+  font-family: "Bungee", sans-serif;
+  text-transform: uppercase;
 }
 
 .footer-navigation a:hover {
   color: #ffcc00;
 }
 
-.footer-contact p {
+.footer-contact a,
+.address-footer {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5px 0;
   gap: 10px;
-  font-size: clamp(1.125rem, 0.179vw + 1.089rem, 1.25rem);
-  line-height: clamp(1.463rem, 0.232vw + 1.416rem, 1.625rem);
+  font-size: clamp(1.5rem, 0.536vw + 1.393rem, 1.875rem);
+  line-height: clamp(1.95rem, 0.696vw + 1.811rem, 2.438rem);
 }
 
 .footer-contact i {
@@ -59,6 +63,8 @@
   transition: color 0.3s;
   font-size: clamp(1.125rem, 0.179vw + 1.089rem, 1.25rem);
   line-height: clamp(1.463rem, 0.232vw + 1.416rem, 1.625rem);
+  font-family: "Bungee", sans-serif;
+  text-transform: uppercase;
 }
 
 .footer-links a:hover {

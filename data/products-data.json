@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "photo": "img/products/item1.webp",
+      "title": "Kasyno Online Szklane Bombki",
+      "description": "Eleganckie i błyszczące bombki szklane, które dodają magii każdej choince.",
+      "type": "Szklane Bombki"
+    },
+    {
+      "id": 2,
+      "photo": "img/products/item2.webp",
+      "title": "Slot Online Złote Gwiazdki",
+      "description": "Lśniące złote gwiazdki, idealne do dekoracji drzewka świątecznego.",
+      "type": "Złote Gwiazdki"
+    },
+    {
+      "id": 3,
+      "photo": "img/products/item3.webp",
+      "title": "Total Casino Bombki Ręcznie Malowane",
+      "description": "Unikalne bombki malowane ręcznie, które nadadzą Twojej choince wyjątkowego charakteru.",
+      "type": "Ręcznie Malowane Bombki"
+    },
+    {
+      "id": 4,
+      "photo": "img/products/item4.webp",
+      "title": "Slot Online Lampki Świąteczne",
+      "description": "Energooszczędne lampki LED, które rozświetlą każde święta.",
+      "type": "Lampki Świąteczne"
+    },
+    {
+      "id": 5,
+      "photo": "img/products/item5.webp",
+      "title": "Kasyno Online Dekoracyjne Śnieżynki",
+      "description": "Piękne ozdoby w kształcie śnieżynek, które dodadzą uroku każdemu wnętrzu.",
+      "type": "Dekoracyjne Śnieżynki"
+    },
+    {
+      "id": 6,
+      "photo": "img/products/item6.webp",
+      "title": "Slot Online Bombki Z Brokatem",
+      "description": "Bombki ozdobione brokatem, które rozbłysną na Twojej choince.",
+      "type": "Bombki Z Brokatem"
+    },
+    {
+      "id": 7,
+      "photo": "img/products/item7.webp",
+      "title": "Kasyno Online Drzewka Świąteczne",
+      "description": "Miniaturowe drzewka idealne do dekoracji stołu świątecznego.",
+      "type": "Mini Drzewka Świąteczne"
+    },
+    {
+      "id": 8,
+      "photo": "img/products/item8.webp",
+      "title": "Slot Online Zestaw Bombek Kolorowych",
+      "description": "Zestaw różnorodnych bombek w intensywnych kolorach.",
+      "type": "Zestaw Kolorowych Bombek"
+    },
+    {
+      "id": 9,
+      "photo": "img/products/item9.webp",
+      "title": "Slot Online Świecące Gwiazdki",
+      "description": "Dekoracje w kształcie gwiazdek z wbudowanymi diodami LED.",
+      "type": "Świecące Gwiazdki"
+    }
+  ]
+}

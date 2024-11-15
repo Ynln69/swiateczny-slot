@@ -12,9 +12,10 @@ html {
 body {
   margin: 0;
 
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
-  font-family: "Arial", sans-serif;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -38,12 +39,14 @@ body {
 .title {
   margin-bottom: 20px;
 
+  font-family: "Bungee", sans-serif;
   color: var(--secondary-color);
   text-align: center;
   font-size: clamp(2rem, 2.143vw + 1.571rem, 3.5rem);
   line-height: clamp(2.6rem, 2.786vw + 2.043rem, 4.55rem);
 }
 .subTitle {
+  font-family: "Bungee", sans-serif;
   color: var(--primary-color);
   font-size: clamp(1.375rem, 0.536vw + 1.268rem, 1.75rem);
   line-height: clamp(1.788rem, 0.696vw + 1.648rem, 2.275rem);
@@ -53,6 +56,6 @@ body {
   margin-bottom: 10px;
 
   color: var(--hover-color);
-  font-size: clamp(1.125rem, 0.536vw + 1.018rem, 1.5rem);
-  line-height: clamp(1.463rem, 0.696vw + 1.323rem, 1.95rem);
+  font-size: clamp(1.625rem, 0.536vw + 1.518rem, 2rem);
+  line-height: clamp(2.113rem, 0.696vw + 1.973rem, 2.6rem);
 }

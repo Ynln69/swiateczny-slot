@@ -1,0 +1,179 @@
+{
+  "header": {
+    "link1": "Popularne Zabawki",
+    "link3": "O nas",
+    "link4": "Kontakt",
+    "link5": "Nasze promocje"
+  },
+  "hero": {
+    "mainTitle": " Wprowadź magię świąt do swojego domu!",
+    "text": "Odkryj najlepszy wybór ozdób świątecznych i zabawek.",
+    "btn": "Przeglądaj ofertę"
+  },
+  "promotions": {
+    "mainTitle": "Nasze promocje",
+
+    "title1": "Kup 3 bombki – czwarta gratis!",
+    "title2": "Zestaw ozdób choinkowych -15%",
+    "title3": "Darmowa dostawa powyżej 200 zł",
+
+    "desc1": "Przy zakupie trzech bombek świątecznych otrzymasz czwartą zupełnie za darmo.",
+    "desc2": "Skorzystaj z rabatu na nasze zestawy ozdób choinkowych i zaoszczędź 15%.",
+    "desc3": "Zrób zakupy za minimum 200 zł i ciesz się darmową dostawą na terenie Polski."
+  },
+  "about": {
+    "mainTitle": "O nas",
+    "text1": "Witaj w naszym magicznym świecie świątecznych dekoracji! Oferujemy unikalne ozdoby choinkowe, które wprowadzą magię świąt do Twojego domu.",
+    "text2": "Każda ozdoba jest wykonana z dbałością o najmniejszy detal, aby nadać Twojej choince niepowtarzalny charakter i ciepło świątecznej atmosfery."
+  },
+  "categories": {
+    "mainTitle": "Nasze Kategorie",
+    "title1": "Szklane Bombki Slot",
+    "title2": "Gwiazdki Casino na choinkę",
+    "title3": "Lampki Świąteczne Jackpot"
+  },
+  "advantages": {
+    "mainTitle": "Nasze zalety",
+    "title1": "Wyjątkowy design",
+    "desc1": "Nasze ozdoby choinkowe zachwycają unikalnym wzornictwem, które podkreśli magię Twoich świąt.",
+    "title2": "Ekologiczne materiały",
+    "desc2": "Stosujemy tylko przyjazne środowisku materiały, dbając o naturę i Twoje zdrowie.",
+    "title3": "Szybka dostawa",
+    "desc3": "Zapewniamy ekspresową dostawę, aby Twoje dekoracje dotarły na czas."
+  },
+  "products": {
+    "title1": "Kasyno Online Szklane Bombki",
+    "desc1": "Eleganckie i błyszczące bombki szklane, które dodają magii każdej choince.",
+    "type1": "Szklane Bombki",
+
+    "title2": "Slot Online Złote Gwiazdki",
+    "desc2": "Lśniące złote gwiazdki, idealne do dekoracji drzewka świątecznego.",
+    "type2": "Złote Gwiazdki",
+
+    "title3": "Total Casino Bombki Ręcznie Malowane",
+    "desc3": "Unikalne bombki malowane ręcznie, które nadadzą Twojej choince wyjątkowego charakteru.",
+    "type3": "Ręcznie Malowane Bombki",
+
+    "title4": "Slot Online Lampki Świąteczne",
+    "desc4": "Energooszczędne lampki LED, które rozświetlą każde święta.",
+    "type4": "Lampki Świąteczne",
+
+    "title5": "Kasyno Online Dekoracyjne Śnieżynki",
+    "desc5": "Piękne ozdoby w kształcie śnieżynek, które dodadzą uroku każdemu wnętrzu.",
+    "type5": "Dekoracyjne Śnieżynki",
+
+    "title6": "Slot Online Bombki Z Brokatem",
+    "desc6": "Bombki ozdobione brokatem, które rozbłysną na Twojej choince.",
+    "type6": "Bombki Z Brokatem",
+
+    "title7": "Kasyno Online Drzewka Świąteczne",
+    "desc7": "Miniaturowe drzewka idealne do dekoracji stołu świątecznego.",
+    "type7": "Mini Drzewka Świąteczne",
+
+    "title8": "Slot Online Zestaw Bombek Kolorowych",
+    "desc8": "Zestaw różnorodnych bombek w intensywnych kolorach.",
+    "type8": "Zestaw Kolorowych Bombek",
+
+    "title9": "Slot Online Świecące Gwiazdki",
+    "desc9": "Dekoracje w kształcie gwiazdek z wbudowanymi diodami LED.",
+    "type9": "Świecące Gwiazdki"
+  },
+  "cookie": {
+    "mainTitle": "Polityka Plików Cookie",
+
+    "title1": "1. Czym są pliki cookie:",
+    "title2": "2. Jak wykorzystujemy pliki cookie:",
+    "title3": "3. Rodzaje plików cookie, które wykorzystujemy:",
+    "title4": "4. Zarządzanie plikami cookie:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "Świateczny Slot wykorzystuje pliki cookie, aby poprawić Twoje doświadczenie na naszej stronie i dostarczyć bardziej spersonalizowane usługi.",
+    "text3": "Pliki cookie to małe pliki zapisywane na Twoim urządzeniu przez naszą stronę internetową. Służą one do poprawy funkcjonalności strony oraz optymalizacji doświadczenia użytkownika.",
+    "text4": "Możesz zarządzać plikami cookie lub je wyłączyć w ustawieniach swojej przeglądarki. Należy jednak pamiętać, że wyłączenie plików cookie może wpłynąć na działanie niektórych funkcji naszej strony.",
+    "text5": "Korzystając z naszej strony, zgadzasz się na wykorzystanie plików cookie, zgodnie z opisem w tej polityce. Jeśli masz pytania dotyczące plików cookie, skontaktuj się z nami pod adresem kontakt@swiatecznyslot.com",
+
+    "item1": "Aby monitorować wydajność naszej strony i poprawić Twoje doświadczenie użytkownika.",
+    "item2": "Aby zapamiętać Twoje ustawienia, dzięki czemu możemy dostarczyć lepsze usługi.",
+    "item3": "Niezbędne pliki cookie: Są wymagane do podstawowej funkcjonalności strony, na przykład zapamiętywania koszyka zakupowego lub danych logowania.",
+    "item4": "Analityczne pliki cookie: Używane do monitorowania sposobu korzystania ze strony oraz poprawy jej wydajności."
+  },
+  "warunki": {
+    "mainTitle": "Warunki Użytkowania",
+
+    "title1": "1. Zasady Ogólne:",
+    "title2": "2. Własność Intelektualna:",
+    "title3": "3. Odpowiedzialność:",
+    "title4": "4. Zmiany:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "Witamy na stronie swiatecznyslot.com Korzystając z naszej strony, akceptujesz poniższe warunki użytkowania.",
+    "text3": "Wszystkie treści na tej stronie, w tym zdjęcia i logo, są własnością swiatecznyslot.com Wykorzystywanie treści bez naszej zgody jest zabronione.",
+    "text4": "Nie ponosimy odpowiedzialności za jakiekolwiek szkody wynikające z korzystania z naszej strony lub świadczonych przez nas usług.",
+    "text5": "Zastrzegamy sobie prawo do zmiany tych warunków w dowolnym momencie. Kontynuowanie korzystania ze strony po zmianach oznacza akceptację nowych warunków.",
+    "text6": "Jeśli masz jakiekolwiek pytania, skontaktuj się z nami pod adresem kontakt@swiatecznyslot.com",
+
+    "item1": "Aby korzystać z naszych usług i dokonywać zakupów, musisz mieć ukończone 18 lat.",
+    "item2": "Zobowiązujesz się do korzystania z naszej strony zgodnie z obowiązującym prawem."
+  },
+  "privacy": {
+    "mainTitle": "Polityka Prywatności",
+
+    "title1": "1. Jakie dane zbieramy:",
+    "title2": "2. Jak wykorzystujemy Twoje dane:",
+    "title3": "3. Udostępnianie danych:",
+    "title4": "4. Pliki cookie:",
+    "title5": "5. Ochrona danych:",
+    "title6": "6. Twoje prawa:",
+
+    "text1": "Data wejścia w życie: 1 stycznia 2024",
+    "text2": "Świateczny Slot (my, nasz, nam) szanuje Twoją prywatność. Niniejsza Polityka Prywatności wyjaśnia, w jaki sposób gromadzimy, wykorzystujemy i chronimy Twoje dane osobowe podczas korzystania z naszej strony internetowej.",
+    "text3": "Nie udostępniamy Twoich danych osobowych stronom trzecim, chyba że jest to wymagane przez prawo.",
+    "text4": "Wykorzystujemy pliki cookie, aby poprawić Twoje doświadczenie na naszej stronie oraz dostarczyć bardziej spersonalizowane usługi.",
+    "text5": "Podejmujemy odpowiednie środki bezpieczeństwa, aby chronić Twoje dane osobowe.",
+    "text6": "Masz prawo dostępu do swoich danych osobowych, ich poprawy lub usunięcia.",
+    "text7": "W przypadku pytań dotyczących prywatności, prosimy o kontakt pod adresem kontakt@swiatecznyslot.com",
+
+    "item1": "Dane osobowe, które podajesz (imię, adres e-mail itp.).",
+    "item2": "Dane zbierane za pomocą plików cookie.",
+    "item3": "Aby dostarczyć nasze usługi.",
+    "item4": "Aby ulepszyć Twoje doświadczenie użytkownika."
+  },
+
+  "footer": {
+    "link1": "Kategorie",
+    "link2": "Popularne Zabawki",
+    "link3": "O nas",
+    "link4": "Kontakt",
+    "link5": "Polityka Prywatności",
+    "link6": "Warunki Użytkowania",
+    "link7": "Polityka Cookies",
+
+    "text1": " Adres: ul. Świąteczna 10, 00-000 Warszawa",
+    "text2": "Telefon: +48 726 617 294",
+    "text3": "Email: kontakt@swiatecznyslot.com",
+
+    "text": "Świateczny Slot - swiatecznyslot.com. Wszelkie prawa zastrzeżone."
+  },
+  "cookieBanner": {
+    "text": "Ta strona korzysta z plików cookie, aby poprawić Twoje doświadczenia.",
+    "button": "Akceptuję pliki cookie"
+  },
+  "thankYou": {
+    "title": "Dziękujemy!",
+    "text": "Twoja wiadomość została pomyślnie wysłana. Skontaktujemy się z Tobą w najbliższym czasie.",
+    "button": "Powrót na stronę główną"
+  },
+  "contacts": {
+    "mainTitle": "Napisz do nas",
+
+    "label1": "Twoje imię",
+    "label2": "Twój email",
+    "label3": "Twoja wiadomość",
+
+    "text1": " Adres: ul. Świąteczna 10, 00-000 Warszawa",
+    "text2": "Telefon: +48 726 617 294",
+    "text3": "Email: kontakt@swiatecznyslot.com",
+
+    "button": "Wyślij wiadomość"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "header": {
+    "link1": "Popular Toys",
+    "link3": "About Us",
+    "link4": "Contact",
+    "link5": "Our Promotions"
+  },
+  "hero": {
+    "mainTitle": "Bring the Magic of Christmas to Your Home!",
+    "text": "Discover the best selection of Christmas decorations and toys.",
+
+    "btn": "Browse the Offer"
+  },
+  "promotions": {
+    "mainTitle": "Our Promotions",
+
+    "title1": "Buy 3 ornaments – get the fourth free!",
+    "title2": "Christmas decoration set -15%",
+    "title3": "Free delivery for orders over 200 zł",
+
+    "desc1": "When you buy three Christmas ornaments, you'll receive the fourth completely free.",
+    "desc2": "Take advantage of a discount on our Christmas decoration sets and save 15%.",
+    "desc3": "Spend at least 200 zł and enjoy free delivery within Poland."
+  },
+  "about": {
+    "mainTitle": "About Us",
+    "text1": "Welcome to our magical world of Christmas decorations! We offer unique Christmas ornaments that bring the magic of the holidays to your home.",
+    "text2": "Each ornament is crafted with attention to the smallest detail, adding a unique character and the warmth of holiday spirit to your Christmas tree."
+  },
+  "categories": {
+    "mainTitle": "Our Categories",
+    "title1": "Glass Ornaments Slot",
+    "title2": "Casino Stars for the Tree",
+    "title3": "Jackpot Christmas Lights"
+  },
+  "advantages": {
+    "mainTitle": "Our Advantages",
+    "title1": "Unique Design",
+    "desc1": "Our Christmas ornaments captivate with unique designs that highlight the magic of your holidays.",
+    "title2": "Eco-Friendly Materials",
+    "desc2": "We use only environmentally friendly materials, caring for nature and your health.",
+    "title3": "Fast Delivery",
+    "desc3": "We ensure express delivery so that your decorations arrive on time."
+  },
+  "products": {
+    "title1": "Kasyno Online Glass Ornaments",
+    "desc1": "Elegant and shiny glass ornaments that add magic to any Christmas tree.",
+    "type1": "Glass Ornaments",
+
+    "title2": "Slot Online Golden Stars",
+    "desc2": "Glittering golden stars, perfect for decorating your Christmas tree.",
+    "type2": "Golden Stars",
+
+    "title3": "Total Casino Hand-Painted Ornaments",
+    "desc3": "Unique hand-painted ornaments that will give your Christmas tree a special character.",
+    "type3": "Hand-Painted Ornaments",
+
+    "title4": "Slot Online Christmas Lights",
+    "desc4": "Energy-saving LED lights that brighten every holiday.",
+    "type4": "Christmas Lights",
+
+    "title5": "Kasyno Online Decorative Snowflakes",
+    "desc5": "Beautiful snowflake-shaped decorations that add charm to any interior.",
+    "type5": "Decorative Snowflakes",
+
+    "title6": "Slot Online Glitter Ornaments",
+    "desc6": "Ornaments decorated with glitter that shine on your Christmas tree.",
+    "type6": "Glitter Ornaments",
+
+    "title7": "Kasyno Online Mini Christmas Trees",
+    "desc7": "Miniature trees perfect for decorating your Christmas table.",
+    "type7": "Mini Christmas Trees",
+
+    "title8": "Slot Online Colorful Ornament Set",
+    "desc8": "A set of diverse ornaments in vibrant colors.",
+    "type8": "Colorful Ornament Set",
+
+    "title9": "Slot Online LED Stars",
+    "desc9": "Star-shaped decorations with built-in LED lights.",
+    "type9": "LED Stars"
+  },
+  "cookie": {
+    "mainTitle": "Cookie Policy",
+
+    "title1": "1. What are cookies:",
+    "title2": "2. How we use cookies:",
+    "title3": "3. Types of cookies we use:",
+    "title4": "4. Managing cookies:",
+
+    "text1": "Effective Date: January 1, 2024",
+    "text2": "Świąteczny Slot uses cookies to improve your experience on our site and provide more personalized services.",
+    "text3": "Cookies are small files stored on your device by our website. They improve site functionality and optimize the user experience.",
+    "text4": "You can manage or disable cookies in your browser settings. However, disabling cookies may affect the functionality of certain site features.",
+    "text5": "By using our site, you agree to the use of cookies as described in this policy. If you have any questions about cookies, contact us at kontakt@swiatecznyslot.com",
+
+    "item1": "To monitor the performance of our site and improve your user experience.",
+    "item2": "To remember your settings so we can provide better services.",
+    "item3": "Essential cookies: Required for basic site functionality, such as remembering your shopping cart or login data.",
+    "item4": "Analytical cookies: Used to monitor site usage and improve its performance."
+  },
+  "warunki": {
+    "mainTitle": "Terms of Use",
+
+    "title1": "1. General Rules:",
+    "title2": "2. Intellectual Property:",
+    "title3": "3. Liability:",
+    "title4": "4. Changes:",
+
+    "text1": "Effective Date: January 1, 2024",
+    "text2": "Welcome to swiatecznyslot.com By using our site, you accept the terms of use outlined below.",
+    "text3": "All content on this site, including images and logos, is the property of swiatecznyslot.com. Using content without our permission is prohibited.",
+    "text4": "We are not responsible for any damages arising from the use of our site or services provided by us.",
+    "text5": "We reserve the right to change these terms at any time. Continuing to use the site after changes indicates acceptance of the new terms.",
+    "text6": "If you have any questions, contact us at kontakt@swiatecznyslot.com",
+
+    "item1": "To use our services and make purchases, you must be at least 18 years old.",
+    "item2": "You agree to use our site in compliance with applicable laws."
+  },
+  "privacy": {
+    "mainTitle": "Privacy Policy",
+
+    "title1": "1. What data we collect:",
+    "title2": "2. How we use your data:",
+    "title3": "3. Sharing data:",
+    "title4": "4. Cookies:",
+    "title5": "5. Data Protection:",
+    "title6": "6. Your Rights:",
+
+    "text1": "Effective Date: January 1, 2024",
+    "text2": "Świąteczny Slot (we, us, our) respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal data while using our website.",
+    "text3": "We do not share your personal data with third parties unless required by law.",
+    "text4": "We use cookies to improve your experience on our site and provide more personalized services.",
+    "text5": "We take appropriate security measures to protect your personal data.",
+    "text6": "You have the right to access, correct, or delete your personal data.",
+    "text7": "If you have questions about privacy, please contact us at kontakt@swiatecznyslot.com",
+
+    "item1": "Personal data you provide (name, email address, etc.).",
+    "item2": "Data collected via cookies.",
+    "item3": "To provide our services.",
+    "item4": "To enhance your user experience."
+  },
+
+  "footer": {
+    "link1": "Categories",
+    "link2": "Popular Toys",
+    "link3": "About Us",
+    "link4": "Contact",
+    "link5": "Privacy Policy",
+    "link6": "Terms of Use",
+    "link7": "Cookie Policy",
+
+    "text1": "Address: ul. Świąteczna 10, 00-000 Warsaw",
+    "text2": "Phone: +48 726 617 294",
+    "text3": "Email: contact@swiatecznyslot.com",
+
+    "text": "Świąteczny Slot - swiatecznyslot.com. All rights reserved."
+  },
+  "cookieBanner": {
+    "text": "This site uses cookies to improve your experience.",
+    "button": "Accept Cookies"
+  },
+  "thankYou": {
+    "title": "Thank You!",
+    "text": "Your message has been successfully sent. We will contact you shortly.",
+    "button": "Back to Home"
+  },
+  "contacts": {
+    "mainTitle": "Contact Us",
+
+    "label1": "Your Name",
+    "label2": "Your Email",
+    "label3": "Your Message",
+
+    "text1": " Address: ul. Świąteczna 10, 00-000 Warsaw",
+    "text2": "Phone: +48 726 617 294",
+    "text3": "Email: kontakt@swiatecznyslot.com",
+
+    "button": "Send Message"
+  }
+}

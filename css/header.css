@@ -15,10 +15,8 @@
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: #ffcc00;
+  display: flex;
+  justify-content: center;
 }
 
 /* Десктопна навігація */
@@ -31,6 +29,8 @@
 }
 
 .desktop-nav a {
+  font-family: "Bungee", sans-serif;
+  text-transform: uppercase;
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
@@ -90,6 +90,8 @@
   text-decoration: none;
   font-size: 1.25rem;
   transition: color 0.3s ease;
+  font-size: clamp(1.25rem, 0.536vw + 1.143rem, 1.625rem);
+  line-height: clamp(1.625rem, 0.696vw + 1.486rem, 2.113rem);
 }
 
 .mobile-nav a:hover {
@@ -119,5 +121,55 @@
 
   .menu-toggle {
     display: flex;
+  }
+}
+.language-select {
+  position: relative;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header-select {
+  appearance: none;
+  background-color: #c1121f; /* Червоний колір */
+  color: #fff;
+  border: 1px solid #ffcc00;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.header-select:hover {
+  background-color: #ffcc00; /* Золотий при наведенні */
+  color: #c1121f; /* Контрастний текст */
+}
+
+.language-select::before {
+  content: "🌟";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.language-select::after {
+  content: "🎅";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .header-select {
+    font-size: 14px;
+    padding: 8px 15px;
   }
 }
